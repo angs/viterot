@@ -7,7 +7,7 @@ const concat = require('gulp-concat');
 // Paths
 const paths = {
   scripts: {
-    src: 'src/js/**/*.js',    // Modify this path to your JS files
+    src: 'src/*.ts',  // Adjusted for TypeScript files
     dest: 'dist/js'
   },
   styles: {
