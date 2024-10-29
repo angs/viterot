@@ -51,4 +51,4 @@ exports.scripts = scripts;
 exports.styles = styles;
 exports.watch = watch;
 exports.build = build;
-
+exports.default = build; // or replace `build` with another task, such as `watch`
